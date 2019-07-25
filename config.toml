@@ -1,0 +1,48 @@
+#This is a TOML Document
+
+#The TOML specification can be found here: https://github.com/toml-lang/toml
+
+title="Abundance Parser Configuration"
+
+
+#The input source and parsing parameters
+[input]
+    #The CSV input file(s) to read data from
+    #The files should be of the same format (column titles,
+    #Example:
+    #input_files=[ "/input/file1",
+    #              path to file2
+    #             ]
+    input_files=["/input/test.csv"]
+
+    #fasta file(s) containing the protein sequence(s) to align against
+    prot_seq_fasta=["/data/1N4RP301STau.fasta","/data/2N4R_wt_tau.fasta"]
+
+
+[output]
+    #Relative or absolute path to desired output directory
+    output_directory="output/"
+
+    #this stub is prepended by the file name of the input file
+    output_name_stub="residueModificationAnalysis"
+
+
+#Configuration of parser settings
+[parser_config]
+    #If false, files will be specified via abundance column
+    using_fileID_column=false
+    #Title of column containing abundance. If using_fileID_column is set to
+    #true, only the first entry will be used
+    abundance_col_titles=["Abundance","Abundance: F1"]
+    [parser_config.master]
+        #Configs for use of pre-localized modification in master protein in
+        #parsing
+        master.use=false
+        #Column header containing the title of the column containing the
+        #localized modifications
+        master.modification_header="Modifications in Master Proteins"
+
+
+
+
+

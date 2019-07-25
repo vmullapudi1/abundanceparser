@@ -1,0 +1,11 @@
+#This is a TOML Document
+
+#The TOML specification can be found here: https://github.com/toml-lang/toml
+
+title="Perser Regex Configuration"
+#IMPORTANT: Use string literals instead of strings to allow escape characters
+#to function properly.
+#Regex Strings should be formatted with single quotes (e.g. 'foobar') or triple
+#quotes (e.g. '''this is a string literal as well''') to store them as string
+#literals
+regex.phosphoregex=''
