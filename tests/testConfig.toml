@@ -29,18 +29,19 @@ title="Abundance Parser Configuration"
 
 #Configuration of parser settings
 [parser_config]
+    sequence_column_title="Annotated Sequence"
     #If false, files will be specified via abundance column
     using_fileID_column=false
     #Title of column containing abundance. If using_fileID_column is set to
     #true, only the first entry will be used
-    abundance_col_titles=["Abundance","Abundance: F1"]
+    abundance_col_titles=["Abundance :F1"]
     [parser_config.master]
         #Configs for use of pre-localized modification in master protein in
         #parsing
-        master.use=false
+        use=false
         #Column header containing the title of the column containing the
         #localized modifications
-        master.modification_header="Modifications in Master Proteins"
+        modification_header="Modifications in Master Proteins"
 
 
 
