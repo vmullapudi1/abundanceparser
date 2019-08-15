@@ -2,10 +2,21 @@
 
 #The TOML specification can be found here: https://github.com/toml-lang/toml
 
-title="Perser Regex Configuration"
+title="Parser Regex Configuration"
 #IMPORTANT: Use string literals instead of strings to allow escape characters
 #to function properly.
 #Regex Strings should be formatted with single quotes (e.g. 'foobar') or triple
 #quotes (e.g. '''this is a string literal as well''') to store them as string
 #literals
-regex.phosphoregex=''
+
+#looks for a open square braket, 1 or more digits (capturing group), a dash, 1 or more digits (capturing group)
+# and a closing bracket. The capturing groups capture the digits so we can use them to localize the peptide fragment.
+regex.pos_master_regex = '\[([\d]{1,})\-([\d]{1,})\]'
+
+#matches serine, threonine,tyrosine, followed by 0 or more digits in a capturing group
+#the captured digits are used to localize the modification
+# WARNING- any modifications tos erine, threonine, and tyrosine are picked up by this
+regex.phosphoregex='[STY]([\d]{0,})'
+
+# TODO implement
+regex.OGlcNAc=""
