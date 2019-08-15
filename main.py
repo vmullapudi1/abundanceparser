@@ -9,7 +9,7 @@ import toml
 from Bio import SeqRecord, SeqIO
 
 # Path to configuration toml file
-config_file: str = "tests/testConfig.toml"
+config_file: str = "config.toml"
 
 FileTuple = namedtuple("FileTuple", ['FileName', 'FileData'])
 
