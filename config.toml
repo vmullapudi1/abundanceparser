@@ -13,10 +13,9 @@ title="Abundance Parser Configuration"
     #input_files=[ "/input/file1",
     #              path to file2
     #             ]
-    input_files=["/input/test.csv"]
-
+    input_files=[]
     #fasta file(s) containing the protein sequence(s) to align against
-    prot_seq_fasta=["/data/1N4RP301STau.fasta","/data/2N4R_wt_tau.fasta"]
+    prot_seq_fasta=[]
 
 
 [output]
@@ -24,25 +23,31 @@ title="Abundance Parser Configuration"
     output_directory="output/"
 
     #this stub is prepended by the file name of the input file
-    output_name_stub="residueModificationAnalysis"
-
+    residue_output_name_stub="residueModificationAnalysis"
+    peptide_output_name_stub='peptideModificationAnalysis'
 
 #Configuration of parser settings
 [parser_config]
+    sequence_column_title="Annotated Sequence"
     #If false, files will be specified via abundance column
     using_fileID_column=false
     #Title of column containing abundance. If using_fileID_column is set to
-    #true, only the first Abundance column specified below will be used
-    abundance_col_titles=["Abundance","Abundance: F1"]
+    #true, only the first entry will be used
+    abundance_col_titles=[]
+    calculate_peptide_modifications=true
+
+    [parser_config.regex]
+        regex_file="data/parser_regex.toml"
+        mod_parsing_regex="phosphoregex"
+        pos_master_regex="pos_master_regex"
+
     [parser_config.master]
         #Configs for use of pre-localized modification in master protein in
         #parsing
         use=false
+        #the name in the data of the master protein
+        master_protein_name= 'P10636-8'
+        master_protein_fasta_ID='sp|P10636-8|TAU_HUMAN'
         #Column header containing the title of the column containing the
         #localized modifications
         modification_header="Modifications in Master Proteins"
-
-
-
-
-
