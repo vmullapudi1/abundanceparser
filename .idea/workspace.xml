@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95049e2b-de49-4eca-8a56-217feee8835e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/fileidtest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testConfig.toml" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testConfig.toml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="abundanceparser" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Vish Mullapudi &lt;vishruth.mullapudi@utsouthwestern.edu&gt;" />
+        <option value="Vishruth Mullapudi &lt;vmullapudi1@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitlabProjectsProjectSettings">
+    <option name="projectIdMap">
+      <map>
+        <entry key="251597303" value="929" />
+      </map>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="zCqwTPtb" />
+  </component>
+  <component name="ProjectId" id="1OhBUwuqQeC0AU2a5dD195hs6y9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSV" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95049e2b-de49-4eca-8a56-217feee8835e" name="Default Changelist" comment="" />
+      <created>1564419967384</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564419967384</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added fasta file input">
+      <created>1564432625753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564432625753</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated fasta file input">
+      <created>1564437237262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564437237262</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated fasta file input&#10;cleaned up csv input and protein sequence input&#10;&#10;started master protein localization parsing">
+      <created>1564680645299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564680645299</updated>
+    </task>
+    <task id="LOCAL-00004" summary="master protein localization parsing implemented">
+      <created>1564696496926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564696496926</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed a bug where the only the last protein sequence fie's sequences were contained in the list of the protein sequences due to the list being overwritten and not being appended to upon the ingestion of each fasta file">
+      <created>1564759225699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564759225699</updated>
+    </task>
+    <task id="LOCAL-00006" summary="outlined non-master localization parsing">
+      <created>1564760908122</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564760908122</updated>
+    </task>
+    <task id="LOCAL-00007" summary="restructured master-vs non-master localization to reduce code duplication">
+      <created>1564762347561</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564762347561</updated>
+    </task>
+    <task id="LOCAL-00008" summary="cleaned up masterlocalization parsing to remove unnecessary insertion of tuples to the localization list instead of simply appending them">
+      <created>1564764081319</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564764081319</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added some type annotations">
+      <created>1564764208603</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564764208603</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added some type annotations">
+      <created>1564776954597</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1564776954597</updated>
+    </task>
+    <task id="LOCAL-00011" summary="initial implementation of non-master protein alignment and modification parsing">
+      <created>1564781397850</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564781397850</updated>
+    </task>
+    <task id="LOCAL-00012" summary="non-master protein alignment working with multiple files, stored localization column titles in dict instead of pointless list of dicts">
+      <created>1564784549765</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564784549765</updated>
+    </task>
+    <task id="LOCAL-00013" summary="cleaned up localization with list comprehension">
+      <created>1564785205301</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1564785205301</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fragment localization completed">
+      <created>1564789868671</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1564789868671</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fragment localization completed">
+      <created>1564801526974</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1564801526974</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added skeleton methods for fragment and peptide modification proportion calculations">
+      <created>1564805104405</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1564805104405</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added skeleton methods for fragment and peptide modification proportion calculations">
+      <created>1564850957801</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564850957801</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated configs&#10;updated parse amster to work better with format of non-master parsing&#10;progress on residue modification calculations">
+      <created>1565044942754</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1565044942754</updated>
+    </task>
+    <task id="LOCAL-00019" summary="more progress on residue modification&#10;fized bug where localized data was getting extended with the ocntents of filetuple isntead of ahving the filetuple added to it">
+      <created>1565046807075</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1565046807075</updated>
+    </task>
+    <task id="LOCAL-00020" summary="residue modification abundances completed and comments added to code">
+      <created>1565120795994</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1565120795994</updated>
+    </task>
+    <task id="LOCAL-00021" summary="multiple abundance columns implemented&#10;residue modification calculation completed">
+      <created>1565123707404</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1565123707404</updated>
+    </task>
+    <task id="LOCAL-00022" summary="residue analysis output complete">
+      <created>1565125430746</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1565125430746</updated>
+    </task>
+    <task id="LOCAL-00023" summary="reformatting and cleanup">
+      <created>1565132037415</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1565132037415</updated>
+    </task>
+    <task id="LOCAL-00024" summary="imorived commenting">
+      <created>1565134819416</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1565134819416</updated>
+    </task>
+    <task id="LOCAL-00025" summary="imorived commenting">
+      <created>1565135001867</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1565135001867</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fixed error causing runtimewarning">
+      <created>1565312109235</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1565312109235</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added fragment modification analysis and output&#10;added test for multiple abundance columns&#10;removed printing for debugging">
+      <created>1565374552658</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1565374552658</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="added fasta file input" />
+    <MESSAGE value="updated fasta file input" />
+    <MESSAGE value="updated fasta file input&#10;cleaned up csv input and protein sequence input&#10;&#10;started master protein localization parsing" />
+    <MESSAGE value="master protein localization parsing implemented" />
+    <MESSAGE value="fixed a bug where the only the last protein sequence fie's sequences were contained in the list of the protein sequences due to the list being overwritten and not being appended to upon the ingestion of each fasta file" />
+    <MESSAGE value="outlined non-master localization parsing" />
+    <MESSAGE value="restructured master-vs non-master localization to reduce code duplication" />
+    <MESSAGE value="cleaned up masterlocalization parsing to remove unnecessary insertion of tuples to the localization list instead of simply appending them" />
+    <MESSAGE value="added some type annotations" />
+    <MESSAGE value="initial implementation of non-master protein alignment and modification parsing" />
+    <MESSAGE value="non-master protein alignment working with multiple files, stored localization column titles in dict instead of pointless list of dicts" />
+    <MESSAGE value="cleaned up localization with list comprehension" />
+    <MESSAGE value="fragment localization completed" />
+    <MESSAGE value="added skeleton methods for fragment and peptide modification proportion calculations" />
+    <MESSAGE value="updated configs&#10;updated parse amster to work better with format of non-master parsing&#10;progress on residue modification calculations" />
+    <MESSAGE value="more progress on residue modification&#10;fized bug where localized data was getting extended with the ocntents of filetuple isntead of ahving the filetuple added to it" />
+    <MESSAGE value="residue modification abundances completed and comments added to code" />
+    <MESSAGE value="multiple abundance columns implemented&#10;residue modification calculation completed" />
+    <MESSAGE value="residue analysis output complete" />
+    <MESSAGE value="reformatting and cleanup" />
+    <MESSAGE value="improved commenting" />
+    <MESSAGE value="imorived commenting" />
+    <MESSAGE value="fixed error causing runtimewarning" />
+    <MESSAGE value="added fragment modification analysis and output&#10;added test for multiple abundance columns&#10;removed printing for debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fragment modification analysis and output&#10;added test for multiple abundance columns&#10;removed printing for debugging" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
