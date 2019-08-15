@@ -2,7 +2,11 @@
   <dictionary name="vish">
     <words>
       <w>fasta</w>
+      <w>ftuple</w>
+      <w>phosphorylation</w>
       <w>prot</w>
+      <w>serine</w>
+      <w>threonine</w>
       <w>toml</w>
     </words>
   </dictionary>
